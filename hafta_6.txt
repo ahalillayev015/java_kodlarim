@@ -1,0 +1,43 @@
+package hafta_6;
+import java.util.Scanner;
+public class Program6 {
+	
+	static int mrb(int x,int y) {
+		/*System.out.println ("Günaydın...");
+	    System.out.println("Bugün fonksiyon konusunu göreceğiz");*/
+		int c=x+y;
+		return c;
+	}
+	
+	public static void main(String[] args) {
+		Scanner oku=new Scanner (System.in);
+		System.out.println("Birinci sayıyı giriniz");
+		int a=oku.nextInt();
+		System.out.println("İkinci sayıyı giriniz");
+		int b=oku.nextInt();
+		System.out.println("Sonuc:"+mrb(a,b));
+	}
+
+}
+------------------------------------------------------------------------------------------------------------------------------
+package hafta_6;
+import java.util.Scanner;
+public class dogum_yıl {
+	
+	
+	static int dg(int a) {
+		int b=2026;
+		int c=b-a;
+		return c;
+	}
+
+	public static void main(String[] args) {
+			Scanner halillayev=new Scanner(System.in);
+			System.out.println("Dogum yılını gir:");
+			int a=halillayev.nextInt();
+			System.out.println("Yaşın:"+dg(a));
+		}
+
+	}
+
+
